@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="team_name_text_size_portrait">4.5sp</dimen>
+    <dimen name="team_name_text_size_landscape">12sp</dimen>
+</resources>

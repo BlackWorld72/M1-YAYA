@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_leaderboard">Classement</string>
+    <string name="title_matches">Match</string>
+    <string name="title_settings">Paramètre</string>
+    <string name="short_team_played">P</string>
+    <string name="short_team_wins">V</string>
+    <string name="short_team_draws">N</string>
+    <string name="short_team_losses">D</string>
+    <string name="short_team_goal_for">BP</string>
+    <string name="short_team_goal_against">BC</string>
+    <string name="short_team_points">Pts</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="tomorrow">Demain</string>
+    <string name="setting_language">Choisir une langue</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="remove">Supprimer</string>
+    <string name="confirm_remove">Etes-vous sur de vouloir supprimer </string>
+    <string name="confirm_remove_end"> de votre liste de ligue favorites ?</string>
+    <string name="add">Ajouter</string>
+    <string name="favorite_teams">Equipes favorites</string>
+    <string name="favorite_leagues">Ligues favorites</string>
+    <string name="no_match">Il n\'y a pas de match aujourd\'hui</string>
+    <string-array name="languages">
+        <item>Anglais</item>
+        <item>Français</item>
+    </string-array>
+</resources>

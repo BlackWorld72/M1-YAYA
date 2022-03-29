@@ -1,0 +1,906 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "61",
+    "season": "2021"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [{
+    "league": {
+      "id": 61,
+      "name": "Ligue 1",
+      "country": "France",
+      "logo": "https:\/\/media.api-sports.io\/football\/leagues\/61.png",
+      "flag": "https:\/\/media.api-sports.io\/flags\/fr.svg",
+      "season": 2021,
+      "standings": [
+        [{
+          "rank": 1,
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/85.png"
+          },
+          "points": 53,
+          "goalsDiff": 28,
+          "group": "Ligue 1",
+          "form": "WWDDW",
+          "status": "same",
+          "description": "Promotion - Champions League (Group Stage)",
+          "all": {
+            "played": 22,
+            "win": 16,
+            "draw": 5,
+            "lose": 1,
+            "goals": {
+              "for": 46,
+              "against": 18
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 10,
+            "draw": 1,
+            "lose": 0,
+            "goals": {
+              "for": 27,
+              "against": 6
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 6,
+            "draw": 4,
+            "lose": 1,
+            "goals": {
+              "for": 19,
+              "against": 12
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 2,
+          "team": {
+            "id": 84,
+            "name": "Nice",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/84.png"
+          },
+          "points": 42,
+          "goalsDiff": 18,
+          "group": "Ligue 1",
+          "form": "WWWWW",
+          "status": "same",
+          "description": "Promotion - Champions League (Group Stage)",
+          "all": {
+            "played": 22,
+            "win": 13,
+            "draw": 4,
+            "lose": 5,
+            "goals": {
+              "for": 36,
+              "against": 18
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 5,
+            "draw": 3,
+            "lose": 3,
+            "goals": {
+              "for": 16,
+              "against": 13
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 8,
+            "draw": 1,
+            "lose": 2,
+            "goals": {
+              "for": 20,
+              "against": 5
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 3,
+          "team": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/81.png"
+          },
+          "points": 40,
+          "goalsDiff": 13,
+          "group": "Ligue 1",
+          "form": "LWDWD",
+          "status": "same",
+          "description": "Promotion - Champions League (Qualification)",
+          "all": {
+            "played": 22,
+            "win": 11,
+            "draw": 7,
+            "lose": 4,
+            "goals": {
+              "for": 31,
+              "against": 18
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 4,
+            "draw": 5,
+            "lose": 2,
+            "goals": {
+              "for": 17,
+              "against": 11
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 7,
+            "draw": 2,
+            "lose": 2,
+            "goals": {
+              "for": 14,
+              "against": 7
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 4,
+          "team": {
+            "id": 95,
+            "name": "Strasbourg",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/95.png"
+          },
+          "points": 35,
+          "goalsDiff": 15,
+          "group": "Ligue 1",
+          "form": "LWWWL",
+          "status": "same",
+          "description": "Promotion - Europa League (Group Stage)",
+          "all": {
+            "played": 22,
+            "win": 10,
+            "draw": 5,
+            "lose": 7,
+            "goals": {
+              "for": 44,
+              "against": 29
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 6,
+            "draw": 2,
+            "lose": 3,
+            "goals": {
+              "for": 26,
+              "against": 13
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 4,
+            "draw": 3,
+            "lose": 4,
+            "goals": {
+              "for": 18,
+              "against": 16
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 5,
+          "team": {
+            "id": 94,
+            "name": "Rennes",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/94.png"
+          },
+          "points": 34,
+          "goalsDiff": 20,
+          "group": "Ligue 1",
+          "form": "LWLLL",
+          "status": "same",
+          "description": "Promotion - Europa Conference League (Qualification)",
+          "all": {
+            "played": 22,
+            "win": 10,
+            "draw": 4,
+            "lose": 8,
+            "goals": {
+              "for": 41,
+              "against": 21
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 7,
+            "draw": 1,
+            "lose": 3,
+            "goals": {
+              "for": 25,
+              "against": 8
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 3,
+            "lose": 5,
+            "goals": {
+              "for": 16,
+              "against": 13
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 6,
+          "team": {
+            "id": 82,
+            "name": "Montpellier",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/82.png"
+          },
+          "points": 34,
+          "goalsDiff": 7,
+          "group": "Ligue 1",
+          "form": "WLLWW",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 10,
+            "draw": 4,
+            "lose": 8,
+            "goals": {
+              "for": 37,
+              "against": 30
+            }
+          },
+          "home": {
+            "played": 12,
+            "win": 7,
+            "draw": 2,
+            "lose": 3,
+            "goals": {
+              "for": 22,
+              "against": 13
+            }
+          },
+          "away": {
+            "played": 10,
+            "win": 3,
+            "draw": 2,
+            "lose": 5,
+            "goals": {
+              "for": 15,
+              "against": 17
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 7,
+          "team": {
+            "id": 80,
+            "name": "Lyon",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/80.png"
+          },
+          "points": 34,
+          "goalsDiff": 3,
+          "group": "Ligue 1",
+          "form": "WWWDD",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 9,
+            "draw": 8,
+            "lose": 5,
+            "goals": {
+              "for": 31,
+              "against": 28
+            }
+          },
+          "home": {
+            "played": 12,
+            "win": 6,
+            "draw": 5,
+            "lose": 1,
+            "goals": {
+              "for": 21,
+              "against": 13
+            }
+          },
+          "away": {
+            "played": 10,
+            "win": 3,
+            "draw": 3,
+            "lose": 4,
+            "goals": {
+              "for": 10,
+              "against": 15
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 8,
+          "team": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/91.png"
+          },
+          "points": 33,
+          "goalsDiff": 9,
+          "group": "Ligue 1",
+          "form": "LWDWL",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 9,
+            "draw": 6,
+            "lose": 7,
+            "goals": {
+              "for": 35,
+              "against": 26
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 6,
+            "draw": 3,
+            "lose": 2,
+            "goals": {
+              "for": 23,
+              "against": 11
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 3,
+            "lose": 5,
+            "goals": {
+              "for": 12,
+              "against": 15
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 9,
+          "team": {
+            "id": 116,
+            "name": "Lens",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/116.png"
+          },
+          "points": 33,
+          "goalsDiff": 5,
+          "group": "Ligue 1",
+          "form": "LWWLL",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 9,
+            "draw": 6,
+            "lose": 7,
+            "goals": {
+              "for": 36,
+              "against": 31
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 5,
+            "draw": 4,
+            "lose": 2,
+            "goals": {
+              "for": 19,
+              "against": 11
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 4,
+            "draw": 2,
+            "lose": 5,
+            "goals": {
+              "for": 17,
+              "against": 20
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 10,
+          "team": {
+            "id": 83,
+            "name": "Nantes",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/83.png"
+          },
+          "points": 32,
+          "goalsDiff": 3,
+          "group": "Ligue 1",
+          "form": "WLDWW",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 9,
+            "draw": 5,
+            "lose": 8,
+            "goals": {
+              "for": 30,
+              "against": 27
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 6,
+            "draw": 2,
+            "lose": 3,
+            "goals": {
+              "for": 18,
+              "against": 12
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 3,
+            "lose": 5,
+            "goals": {
+              "for": 12,
+              "against": 15
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 11,
+          "team": {
+            "id": 79,
+            "name": "Lille",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/79.png"
+          },
+          "points": 32,
+          "goalsDiff": 0,
+          "group": "Ligue 1",
+          "form": "LWDWD",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 8,
+            "draw": 8,
+            "lose": 6,
+            "goals": {
+              "for": 30,
+              "against": 30
+            }
+          },
+          "home": {
+            "played": 10,
+            "win": 5,
+            "draw": 4,
+            "lose": 1,
+            "goals": {
+              "for": 14,
+              "against": 11
+            }
+          },
+          "away": {
+            "played": 12,
+            "win": 3,
+            "draw": 4,
+            "lose": 5,
+            "goals": {
+              "for": 16,
+              "against": 19
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 12,
+          "team": {
+            "id": 77,
+            "name": "Angers",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/77.png"
+          },
+          "points": 29,
+          "goalsDiff": -1,
+          "group": "Ligue 1",
+          "form": "LWDLL",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 7,
+            "draw": 8,
+            "lose": 7,
+            "goals": {
+              "for": 28,
+              "against": 29
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 5,
+            "draw": 1,
+            "lose": 5,
+            "goals": {
+              "for": 14,
+              "against": 14
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 2,
+            "draw": 7,
+            "lose": 2,
+            "goals": {
+              "for": 14,
+              "against": 15
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 13,
+          "team": {
+            "id": 106,
+            "name": "Stade Brestois 29",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/106.png"
+          },
+          "points": 28,
+          "goalsDiff": -5,
+          "group": "Ligue 1",
+          "form": "WLLDL",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 7,
+            "draw": 7,
+            "lose": 8,
+            "goals": {
+              "for": 28,
+              "against": 33
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 4,
+            "draw": 3,
+            "lose": 4,
+            "goals": {
+              "for": 15,
+              "against": 16
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 4,
+            "lose": 4,
+            "goals": {
+              "for": 13,
+              "against": 17
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 14,
+          "team": {
+            "id": 93,
+            "name": "Reims",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/93.png"
+          },
+          "points": 24,
+          "goalsDiff": -5,
+          "group": "Ligue 1",
+          "form": "LLDDW",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 5,
+            "draw": 9,
+            "lose": 8,
+            "goals": {
+              "for": 22,
+              "against": 27
+            }
+          },
+          "home": {
+            "played": 10,
+            "win": 3,
+            "draw": 3,
+            "lose": 4,
+            "goals": {
+              "for": 11,
+              "against": 11
+            }
+          },
+          "away": {
+            "played": 12,
+            "win": 2,
+            "draw": 6,
+            "lose": 4,
+            "goals": {
+              "for": 11,
+              "against": 16
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 15,
+          "team": {
+            "id": 99,
+            "name": "Clermont Foot",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/99.png"
+          },
+          "points": 21,
+          "goalsDiff": -17,
+          "group": "Ligue 1",
+          "form": "WLLDW",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 5,
+            "draw": 6,
+            "lose": 11,
+            "goals": {
+              "for": 22,
+              "against": 39
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 3,
+            "draw": 4,
+            "lose": 4,
+            "goals": {
+              "for": 12,
+              "against": 14
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 2,
+            "draw": 2,
+            "lose": 7,
+            "goals": {
+              "for": 10,
+              "against": 25
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 16,
+          "team": {
+            "id": 110,
+            "name": "Estac Troyes",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/110.png"
+          },
+          "points": 20,
+          "goalsDiff": -11,
+          "group": "Ligue 1",
+          "form": "LWLDL",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 5,
+            "draw": 5,
+            "lose": 12,
+            "goals": {
+              "for": 20,
+              "against": 31
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 2,
+            "draw": 4,
+            "lose": 5,
+            "goals": {
+              "for": 11,
+              "against": 13
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 1,
+            "lose": 7,
+            "goals": {
+              "for": 9,
+              "against": 18
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 17,
+          "team": {
+            "id": 78,
+            "name": "Bordeaux",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/78.png"
+          },
+          "points": 20,
+          "goalsDiff": -19,
+          "group": "Ligue 1",
+          "form": "WLLLW",
+          "status": "same",
+          "description": null,
+          "all": {
+            "played": 22,
+            "win": 4,
+            "draw": 8,
+            "lose": 10,
+            "goals": {
+              "for": 34,
+              "against": 53
+            }
+          },
+          "home": {
+            "played": 12,
+            "win": 2,
+            "draw": 4,
+            "lose": 6,
+            "goals": {
+              "for": 19,
+              "against": 24
+            }
+          },
+          "away": {
+            "played": 10,
+            "win": 2,
+            "draw": 4,
+            "lose": 4,
+            "goals": {
+              "for": 15,
+              "against": 29
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 18,
+          "team": {
+            "id": 112,
+            "name": "Metz",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/112.png"
+          },
+          "points": 19,
+          "goalsDiff": -19,
+          "group": "Ligue 1",
+          "form": "LWLDW",
+          "status": "same",
+          "description": "Ligue 1 (Relegation)",
+          "all": {
+            "played": 22,
+            "win": 4,
+            "draw": 7,
+            "lose": 11,
+            "goals": {
+              "for": 24,
+              "against": 43
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 1,
+            "draw": 4,
+            "lose": 6,
+            "goals": {
+              "for": 14,
+              "against": 23
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 3,
+            "draw": 3,
+            "lose": 5,
+            "goals": {
+              "for": 10,
+              "against": 20
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 19,
+          "team": {
+            "id": 97,
+            "name": "Lorient",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/97.png"
+          },
+          "points": 17,
+          "goalsDiff": -20,
+          "group": "Ligue 1",
+          "form": "LLDDL",
+          "status": "same",
+          "description": "Relegation - Ligue 2",
+          "all": {
+            "played": 22,
+            "win": 3,
+            "draw": 8,
+            "lose": 11,
+            "goals": {
+              "for": 18,
+              "against": 38
+            }
+          },
+          "home": {
+            "played": 10,
+            "win": 3,
+            "draw": 4,
+            "lose": 3,
+            "goals": {
+              "for": 8,
+              "against": 9
+            }
+          },
+          "away": {
+            "played": 12,
+            "win": 0,
+            "draw": 4,
+            "lose": 8,
+            "goals": {
+              "for": 10,
+              "against": 29
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }, {
+          "rank": 20,
+          "team": {
+            "id": 1063,
+            "name": "Saint Etienne",
+            "logo": "https:\/\/media.api-sports.io\/football\/teams\/1063.png"
+          },
+          "points": 15,
+          "goalsDiff": -24,
+          "group": "Ligue 1",
+          "form": "WLLLL",
+          "status": "same",
+          "description": "Relegation - Ligue 2",
+          "all": {
+            "played": 22,
+            "win": 3,
+            "draw": 6,
+            "lose": 13,
+            "goals": {
+              "for": 19,
+              "against": 43
+            }
+          },
+          "home": {
+            "played": 11,
+            "win": 1,
+            "draw": 4,
+            "lose": 6,
+            "goals": {
+              "for": 11,
+              "against": 23
+            }
+          },
+          "away": {
+            "played": 11,
+            "win": 2,
+            "draw": 2,
+            "lose": 7,
+            "goals": {
+              "for": 8,
+              "against": 20
+            }
+          },
+          "update": "2022-02-01T00:00:00+00:00"
+        }]
+      ]
+    }
+  }]
+}

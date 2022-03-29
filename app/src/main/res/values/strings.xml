@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Yaya</string>
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="title_matches">Match</string>
+    <string name="title_settings">Setting</string>
+    <string name="short_team_played">P</string>
+    <string name="short_team_wins">W</string>
+    <string name="short_team_draws">D</string>
+    <string name="short_team_losses">L</string>
+    <string name="short_team_goal_for">GF</string>
+    <string name="short_team_goal_against">GA</string>
+    <string name="short_team_points">Pts</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm_remove">Are you sure to remove </string>
+    <string name="confirm_remove_end"> from your favorite leagues?</string>
+    <string name="setting_language">Change language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="favorite_teams">Favorite teams</string>
+    <string name="favorite_leagues">Favorite leagues</string>
+    <string name="no_match">There is no match today</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+</resources>
