@@ -24,7 +24,7 @@
     <string name="french">French</string>
     <string name="favorite_teams">Favorite teams</string>
     <string name="favorite_leagues">Favorite leagues</string>
-    <string name="no_match">There is no match today</string>
+    <string name="no_match">There is no match on this day</string>
     <string-array name="languages">
         <item>English</item>
         <item>French</item>

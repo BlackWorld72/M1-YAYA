@@ -24,7 +24,7 @@
     <string name="add">Ajouter</string>
     <string name="favorite_teams">Equipes favorites</string>
     <string name="favorite_leagues">Ligues favorites</string>
-    <string name="no_match">Il n\'y a pas de match aujourd\'hui</string>
+    <string name="no_match">Il n\'y a pas de match à cette date</string>
     <string-array name="languages">
         <item>Anglais</item>
         <item>Français</item>

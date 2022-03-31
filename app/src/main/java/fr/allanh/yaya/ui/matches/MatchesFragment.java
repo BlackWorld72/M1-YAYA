@@ -1,6 +1,7 @@
 package fr.allanh.yaya.ui.matches;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Typeface;
@@ -20,6 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import com.android.volley.AuthFailureError;
@@ -110,29 +112,34 @@ public class MatchesFragment extends Fragment {
         jsonRequest();
     }
 
+
     /**
      * Update the date at the top
      */
-    private void refreshDate() {
+    private String refreshDate() {
         Date date = new Date();
         Calendar c = Calendar.getInstance();
         c.setTime(date);
 
         if (c.get(Calendar.DATE) == calendar.get(Calendar.DATE) && c.get(Calendar.MONTH) == calendar.get(Calendar.MONTH) && c.get(Calendar.YEAR) == calendar.get(Calendar.YEAR)) {
             tv_match_day.setText(getResources().getString(R.string.today));
+            return getResources().getString(R.string.today);
         }
         else {
             c.add(Calendar.DATE, 1);
             if (c.get(Calendar.DATE) == calendar.get(Calendar.DATE) && c.get(Calendar.MONTH) == calendar.get(Calendar.MONTH) && c.get(Calendar.YEAR) == calendar.get(Calendar.YEAR)) {
                 tv_match_day.setText(getResources().getString(R.string.tomorrow));
+                return getResources().getString(R.string.tomorrow);
             }
             else {
                 c.add(Calendar.DATE, -2);
                 if (c.get(Calendar.DATE) == calendar.get(Calendar.DATE) && c.get(Calendar.MONTH) == calendar.get(Calendar.MONTH) && c.get(Calendar.YEAR) == calendar.get(Calendar.YEAR)) {
                     tv_match_day.setText(getResources().getString(R.string.yesterday));
+                    return getResources().getString(R.string.yesterday);
                 }
                 else {
                     tv_match_day.setText(calendar.get(Calendar.DATE) + "-" + String.valueOf(calendar.get(Calendar.MONTH)+1) + "-" + calendar.get(Calendar.YEAR));
+                    return calendar.get(Calendar.DATE) + "-" + String.valueOf(calendar.get(Calendar.MONTH)+1) + "-" + calendar.get(Calendar.YEAR);
                 }
             }
         }
@@ -250,7 +257,11 @@ public class MatchesFragment extends Fragment {
             }
         };
 
-        jsonObjectRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        jsonObjectRequest.setRetryPolicy(new DefaultRetryPolicy(
+                0,
+                DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+
         jsonObjectRequest.setTag("MATCHS");
         queue.add(jsonObjectRequest);
     }
@@ -276,7 +287,8 @@ public class MatchesFragment extends Fragment {
      */
     private LinearLayout getHboxLeague(League league) {
         LinearLayout hbox = new LinearLayout(getActivity());
-        hbox.setBackgroundColor(Color.rgb(102,102,102));
+        //hbox.setBackgroundColor(getResources().getColor(R.color.purple_500));
+        hbox.setBackgroundColor(Color.rgb(100,90,90));
         hbox.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
         hbox.setOrientation(LinearLayout.HORIZONTAL);
         RelativeLayout.LayoutParams layoutParams =(RelativeLayout.LayoutParams) hbox.getLayoutParams();
@@ -459,12 +471,15 @@ public class MatchesFragment extends Fragment {
         LinearLayout vbox_matches = view.findViewById(R.id.vbox_matches);
 
         TextView t = new TextView(getActivity());
-        t.setText(R.string.no_match);
+        t.setText(getResources().getString(R.string.no_match));
         t.setTypeface(Typeface.DEFAULT_BOLD);
-        t.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
+        t.setGravity(Gravity.CENTER);
+        t.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
         t.setTextColor(Color.WHITE);
         t.setId(Utils.generateViewId());
         t.setTextSize(25);
+
+        vbox_matches.addView(t);
     }
 
     /**
